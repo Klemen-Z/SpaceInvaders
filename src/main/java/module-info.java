@@ -5,6 +5,7 @@ module com.ptsd.spaceinvaders {
     requires org.controlsfx.controls;
     requires validatorfx;
     requires org.kordamp.ikonli.javafx;
+    requires java.desktop;
 
     opens com.ptsd.spaceinvaders to javafx.fxml;
     exports com.ptsd.spaceinvaders;
